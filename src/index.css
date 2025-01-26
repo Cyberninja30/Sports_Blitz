@@ -1,0 +1,28 @@
+/* src/index.css */
+html, body {
+  height: auto;
+  margin: 0;
+  background: #000;
+  color: white;
+}
+/* src/index.css */
+.main-content {
+  padding-top: 5em; /* Adjust this value based on the height of your header */
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app {
+  flex: 1;
+}
+
+
+footer {
+  background: #f1f1f1;
+  padding: 1rem;
+  text-align: center;
+}
